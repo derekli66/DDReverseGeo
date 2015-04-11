@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71E553F21AD97EA50065BB85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E553F11AD97EA50065BB85 /* main.m */; };
+		71E553F51AD97EA50065BB85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E553F41AD97EA50065BB85 /* AppDelegate.m */; };
+		71E553F81AD97EA50065BB85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E553F71AD97EA50065BB85 /* ViewController.m */; };
+		71E553FB1AD97EA50065BB85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71E553F91AD97EA50065BB85 /* Main.storyboard */; };
+		71E553FD1AD97EA50065BB85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71E553FC1AD97EA50065BB85 /* Images.xcassets */; };
+		71E554001AD97EA50065BB85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71E553FE1AD97EA50065BB85 /* LaunchScreen.xib */; };
+		71E5540C1AD97EA60065BB85 /* DDReverseGeoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E5540B1AD97EA60065BB85 /* DDReverseGeoTests.m */; };
+		71E5541A1AD9868B0065BB85 /* DDReverseGeo.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E554171AD9868B0065BB85 /* DDReverseGeo.m */; };
+		71E5541B1AD9868B0065BB85 /* DDReverseGeoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 71E554191AD9868B0065BB85 /* DDReverseGeoOperation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71E554061AD97EA60065BB85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71E553E41AD97EA50065BB85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71E553EB1AD97EA50065BB85;
+			remoteInfo = DDReverseGeo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71E553EC1AD97EA50065BB85 /* DDReverseGeo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDReverseGeo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E553F01AD97EA50065BB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E553F11AD97EA50065BB85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71E553F31AD97EA50065BB85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71E553F41AD97EA50065BB85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71E553F61AD97EA50065BB85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71E553F71AD97EA50065BB85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71E553FA1AD97EA50065BB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71E553FC1AD97EA50065BB85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		71E553FF1AD97EA50065BB85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		71E554051AD97EA60065BB85 /* DDReverseGeoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDReverseGeoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71E5540A1AD97EA60065BB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71E5540B1AD97EA60065BB85 /* DDReverseGeoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDReverseGeoTests.m; sourceTree = "<group>"; };
+		71E554161AD9868B0065BB85 /* DDReverseGeo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDReverseGeo.h; sourceTree = "<group>"; };
+		71E554171AD9868B0065BB85 /* DDReverseGeo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDReverseGeo.m; sourceTree = "<group>"; };
+		71E554181AD9868B0065BB85 /* DDReverseGeoOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDReverseGeoOperation.h; sourceTree = "<group>"; };
+		71E554191AD9868B0065BB85 /* DDReverseGeoOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDReverseGeoOperation.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71E553E91AD97EA50065BB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E554021AD97EA60065BB85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71E553E31AD97EA50065BB85 = {
+			isa = PBXGroup;
+			children = (
+				71E554151AD9868B0065BB85 /* ReverseGeo */,
+				71E553EE1AD97EA50065BB85 /* DDReverseGeo */,
+				71E554081AD97EA60065BB85 /* DDReverseGeoTests */,
+				71E553ED1AD97EA50065BB85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71E553ED1AD97EA50065BB85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71E553EC1AD97EA50065BB85 /* DDReverseGeo.app */,
+				71E554051AD97EA60065BB85 /* DDReverseGeoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71E553EE1AD97EA50065BB85 /* DDReverseGeo */ = {
+			isa = PBXGroup;
+			children = (
+				71E553F31AD97EA50065BB85 /* AppDelegate.h */,
+				71E553F41AD97EA50065BB85 /* AppDelegate.m */,
+				71E553F61AD97EA50065BB85 /* ViewController.h */,
+				71E553F71AD97EA50065BB85 /* ViewController.m */,
+				71E553F91AD97EA50065BB85 /* Main.storyboard */,
+				71E553FC1AD97EA50065BB85 /* Images.xcassets */,
+				71E553FE1AD97EA50065BB85 /* LaunchScreen.xib */,
+				71E553EF1AD97EA50065BB85 /* Supporting Files */,
+			);
+			path = DDReverseGeo;
+			sourceTree = "<group>";
+		};
+		71E553EF1AD97EA50065BB85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71E553F01AD97EA50065BB85 /* Info.plist */,
+				71E553F11AD97EA50065BB85 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71E554081AD97EA60065BB85 /* DDReverseGeoTests */ = {
+			isa = PBXGroup;
+			children = (
+				71E5540B1AD97EA60065BB85 /* DDReverseGeoTests.m */,
+				71E554091AD97EA60065BB85 /* Supporting Files */,
+			);
+			path = DDReverseGeoTests;
+			sourceTree = "<group>";
+		};
+		71E554091AD97EA60065BB85 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71E5540A1AD97EA60065BB85 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71E554151AD9868B0065BB85 /* ReverseGeo */ = {
+			isa = PBXGroup;
+			children = (
+				71E554161AD9868B0065BB85 /* DDReverseGeo.h */,
+				71E554171AD9868B0065BB85 /* DDReverseGeo.m */,
+				71E554181AD9868B0065BB85 /* DDReverseGeoOperation.h */,
+				71E554191AD9868B0065BB85 /* DDReverseGeoOperation.m */,
+			);
+			path = ReverseGeo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71E553EB1AD97EA50065BB85 /* DDReverseGeo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E5540F1AD97EA60065BB85 /* Build configuration list for PBXNativeTarget "DDReverseGeo" */;
+			buildPhases = (
+				71E553E81AD97EA50065BB85 /* Sources */,
+				71E553E91AD97EA50065BB85 /* Frameworks */,
+				71E553EA1AD97EA50065BB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDReverseGeo;
+			productName = DDReverseGeo;
+			productReference = 71E553EC1AD97EA50065BB85 /* DDReverseGeo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71E554041AD97EA60065BB85 /* DDReverseGeoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71E554121AD97EA60065BB85 /* Build configuration list for PBXNativeTarget "DDReverseGeoTests" */;
+			buildPhases = (
+				71E554011AD97EA60065BB85 /* Sources */,
+				71E554021AD97EA60065BB85 /* Frameworks */,
+				71E554031AD97EA60065BB85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71E554071AD97EA60065BB85 /* PBXTargetDependency */,
+			);
+			name = DDReverseGeoTests;
+			productName = DDReverseGeoTests;
+			productReference = 71E554051AD97EA60065BB85 /* DDReverseGeoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71E553E41AD97EA50065BB85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "CHIENMING LEE";
+				TargetAttributes = {
+					71E553EB1AD97EA50065BB85 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					71E554041AD97EA60065BB85 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 71E553EB1AD97EA50065BB85;
+					};
+				};
+			};
+			buildConfigurationList = 71E553E71AD97EA50065BB85 /* Build configuration list for PBXProject "DDReverseGeo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71E553E31AD97EA50065BB85;
+			productRefGroup = 71E553ED1AD97EA50065BB85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71E553EB1AD97EA50065BB85 /* DDReverseGeo */,
+				71E554041AD97EA60065BB85 /* DDReverseGeoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71E553EA1AD97EA50065BB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E553FB1AD97EA50065BB85 /* Main.storyboard in Resources */,
+				71E554001AD97EA50065BB85 /* LaunchScreen.xib in Resources */,
+				71E553FD1AD97EA50065BB85 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E554031AD97EA60065BB85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71E553E81AD97EA50065BB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E5541B1AD9868B0065BB85 /* DDReverseGeoOperation.m in Sources */,
+				71E5541A1AD9868B0065BB85 /* DDReverseGeo.m in Sources */,
+				71E553F81AD97EA50065BB85 /* ViewController.m in Sources */,
+				71E553F51AD97EA50065BB85 /* AppDelegate.m in Sources */,
+				71E553F21AD97EA50065BB85 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E554011AD97EA60065BB85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E5540C1AD97EA60065BB85 /* DDReverseGeoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71E554071AD97EA60065BB85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71E553EB1AD97EA50065BB85 /* DDReverseGeo */;
+			targetProxy = 71E554061AD97EA60065BB85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71E553F91AD97EA50065BB85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E553FA1AD97EA50065BB85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71E553FE1AD97EA50065BB85 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71E553FF1AD97EA50065BB85 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71E5540D1AD97EA60065BB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71E5540E1AD97EA60065BB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71E554101AD97EA60065BB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DDReverseGeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		71E554111AD97EA60065BB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DDReverseGeo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		71E554131AD97EA60065BB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DDReverseGeoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDReverseGeo.app/DDReverseGeo";
+			};
+			name = Debug;
+		};
+		71E554141AD97EA60065BB85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DDReverseGeoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDReverseGeo.app/DDReverseGeo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71E553E71AD97EA50065BB85 /* Build configuration list for PBXProject "DDReverseGeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E5540D1AD97EA60065BB85 /* Debug */,
+				71E5540E1AD97EA60065BB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71E5540F1AD97EA60065BB85 /* Build configuration list for PBXNativeTarget "DDReverseGeo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E554101AD97EA60065BB85 /* Debug */,
+				71E554111AD97EA60065BB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71E554121AD97EA60065BB85 /* Build configuration list for PBXNativeTarget "DDReverseGeoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E554131AD97EA60065BB85 /* Debug */,
+				71E554141AD97EA60065BB85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71E553E41AD97EA50065BB85 /* Project object */;
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yQy-eh-c90" userLabel="Text View 1">
+                                <rect key="frame" x="10" y="52" width="301" height="155"/>
+                                <color key="backgroundColor" red="0.90196079015731812" green="0.90196079015731812" blue="0.90196079015731812" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="155" id="ohf-KL-epo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitude:37.775    Longitude:-122.4183333" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="PAC-Ft-ZhH" userLabel="Label 2">
+                                <rect key="frame" x="3" y="237" width="315" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="GG7-dH-tLH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOD-Wu-urL" userLabel="Text View 2">
+                                <rect key="frame" x="10" y="266" width="301" height="155"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="155" id="Jvv-4Q-ZkJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Latitude:45.5236111    Longitude:-122.675" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.20000000000000007" translatesAutoresizingMaskIntoConstraints="NO" id="KbR-Jg-wfT" userLabel="Label 1">
+                                <rect key="frame" x="3" y="28" width="315" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="QAo-tc-3Nd"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="YOD-Wu-urL" secondAttribute="trailing" constant="-7" id="29l-g4-5bN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="yQy-eh-c90" secondAttribute="trailing" constant="-7" id="5Cp-iz-Gfe"/>
+                            <constraint firstItem="yQy-eh-c90" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-6" id="8lN-1K-nQn"/>
+                            <constraint firstItem="KbR-Jg-wfT" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="Cvv-ml-vXB"/>
+                            <constraint firstItem="PAC-Ft-ZhH" firstAttribute="top" secondItem="yQy-eh-c90" secondAttribute="bottom" constant="30" id="MRb-KS-xko"/>
+                            <constraint firstItem="YOD-Wu-urL" firstAttribute="top" secondItem="PAC-Ft-ZhH" secondAttribute="bottom" constant="8" id="Pk8-fc-Cwj"/>
+                            <constraint firstItem="PAC-Ft-ZhH" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-13" id="QTR-T5-wbQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="PAC-Ft-ZhH" secondAttribute="trailing" constant="-14" id="XRY-Zt-lcc"/>
+                            <constraint firstItem="yQy-eh-c90" firstAttribute="top" secondItem="KbR-Jg-wfT" secondAttribute="bottom" constant="3" id="eZi-qL-mVE"/>
+                            <constraint firstItem="YOD-Wu-urL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-6" id="egK-J1-AdI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="KbR-Jg-wfT" secondAttribute="trailing" constant="-14" id="nZC-Jp-vXl"/>
+                            <constraint firstItem="KbR-Jg-wfT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-13" id="oNN-Kz-yk7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="textView1" destination="yQy-eh-c90" id="giA-sd-BIe"/>
+                        <outlet property="textView2" destination="YOD-Wu-urL" id="fhT-66-VRY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="239" y="240"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
