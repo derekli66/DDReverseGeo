@@ -13,6 +13,7 @@
 typedef void (^DDReverseGeocodingResult) (CLPlacemark *placemark, NSError *error);
 
 @interface DDReverseGeo : NSObject
+
 /**
  Class method to return DDReverseGeo instance. Since querying reverse geo is in a queue, 
  naming geoQueue to be more sense while using DDReverseGeo

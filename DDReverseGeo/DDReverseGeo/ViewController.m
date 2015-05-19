@@ -40,7 +40,7 @@
             self.textView2.text = address2;
         }
         else {
-            NSLog(@"Reverse geocoding failed with location1");
+            NSLog(@"Reverse geocoding failed with location2");
         }
     }];
 }

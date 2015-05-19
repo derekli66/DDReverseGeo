@@ -13,6 +13,7 @@
 typedef void (^DDReverseGeocodingCompletion) (CLPlacemark *placemark, NSError *error);
 
 @interface DDReverseGeoOperation : NSOperation
+
 /**
  DDReverseGeoOperation intializer
  
