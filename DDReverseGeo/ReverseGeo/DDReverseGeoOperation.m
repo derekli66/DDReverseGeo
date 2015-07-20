@@ -36,20 +36,25 @@
 {
     __block CLPlacemark *placemark = nil;
     __block NSError *geoerror = nil;
+    __block typeof(self) __weak weakSELF = self;
     
     [self.geocoder reverseGeocodeLocation:_location completionHandler:^(NSArray *placemarks, NSError *error) {
         if (!(geoerror = error)) {
             placemark = [placemarks lastObject];
         }
         
-        self -> _reverseGeocodingEnded = YES;
+        DDReverseGeoOperation *strongSELF = weakSELF;
+        
+        [self willChangeValueForKey:@"isFinished"];
+        [self willChangeValueForKey:@"isExecuting"];
+        strongSELF -> _reverseGeocodingEnded = YES;
+        [self didChangeValueForKey:@"isExecuting"];
+        [self didChangeValueForKey:@"isFinished"];
+        
+        dispatch_async(dispatch_get_main_queue(), ^{
+            if (strongSELF.completion) strongSELF.completion(placemark, geoerror);
+        });
     }];
-
-    while (!self.reverseGeocodingEnded);
-    
-    dispatch_async(dispatch_get_main_queue(), ^{
-        if (self.completion) self.completion(placemark, geoerror);
-    });
 }
 
 - (BOOL)isFinished
